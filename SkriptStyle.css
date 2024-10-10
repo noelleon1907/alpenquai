@@ -1,0 +1,119 @@
+
+p {color: black;
+}
+
+
+html, body {
+	padding:0;
+        margin:0; 
+        font-family:Courier,Roboto,Arial
+      	}
+
+.titelSeiteTitel {
+position: sticky;
+top: 0;
+background-color:black;
+font-size:20pt;
+font-weight: bold;
+color:lightblue;
+padding:1em;
+	}
+
+      
+.pageTitle {
+        background-color:black;
+        font-size:40pt;
+		font-weight: bold;
+        color: lightblue;
+        padding:1em
+      	}
+      
+.main {
+        display:flex;
+      	}
+      
+.content {
+        width:80%;
+        background-color:rgb(20, 209, 216);
+        padding:2em;
+      	}
+
+.navigation {
+        width:20%;
+        background-color:rgb(170, 209, 216);
+        padding:1em;
+        color: black;
+      	}
+      
+.navigation .navPart {
+        font-size:12pt;
+        font-weight:bold;
+        padding:0.25em;
+      	}
+
+.navigation .navList {
+        list-style-type: square;
+      	}
+      
+.navigation a {
+        text-decoration:none;
+        color:black;
+      	}
+
+.navigation a:hover {
+        color:rgb(195, 139, 191);
+      	}
+           
+.figure {
+   	display: inline-block;
+   	margin: 0 auto;
+	}
+	
+.figure .img {
+   	vertical-align: top;                 
+	}
+	
+.figcaption {   
+	text-align: center; font-style: italic;
+	}
+ 
+.code {
+ 	color: rgb(70, 119, 176); 
+ 	font-family:Courier; 
+ 	font-weight:bold;
+ 	font-size:large;
+ 	}
+	
+footer{
+        text-align:center;
+      	}
+		
+#backToTopBtn {
+    display: none; /* Button standardmäßig verstecken */
+    position: fixed; /* Fixiert den Button an einer festen Position */
+    bottom: 55px; /* Abstand vom unteren Rand */
+    right: 30px; /* Abstand vom rechten Rand */
+    z-index: 99; /* Stellt sicher, dass der Button über anderen Elementen liegt */
+    background-color: black; /* Hintergrundfarbe */
+    color: white; /* Textfarbe */
+    border: none; /* Keine Umrandung */
+    padding: 15px; /* Polsterung */
+    border-radius: 10px; /* Abgerundete Ecken */
+    cursor: pointer; /* Ändert den Cursor bei Hover */
+	opacity: 0; /* Startet unsichtbar */
+    transition: opacity 5s ease; /* Sanfte Überblendung */
+}
+#backToTopBtn.show {
+    display: block; /* Zeigt den Button an */
+    opacity: 1; /* Vollständig sichtbar */
+
+#backToTopBtn:hover {
+    background-color: #333; /* Farbe beim Hover */
+}
+
+.githublogo {
+	position: fixed;
+	bottom: 10;
+	left: 10;
+}
+
