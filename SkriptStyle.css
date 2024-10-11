@@ -21,7 +21,7 @@ p {
 }
 
 .titelSeiteTitel {
-    font-size: 16pt; /* Kleiner auf mobilen Geräten */
+    font-size: 10pt; /* Kleiner auf mobilen Geräten */
 }
 
 .pageTitle {
@@ -142,7 +142,7 @@ footer {
     }
 
     .titelSeiteTitel {
-        font-size: 10pt; /* Größere Schriftgröße für Tablets */
+        font-size: 5pt; /* Größere Schriftgröße für Tablets */
     }
 
     .pageTitle {
